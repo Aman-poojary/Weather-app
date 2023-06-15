@@ -6,7 +6,7 @@ import {
     TextInput,
 } from 'react-native';
 import React, { useState } from 'react';
-import style from "../style/style";
+import style from "../../style/style";
 
 
 const Form = () => {

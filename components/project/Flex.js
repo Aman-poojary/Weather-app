@@ -1,5 +1,5 @@
 import { View, Text, Button, StyleSheet,SafeAreaView,StatusBar } from "react-native"
-import style from "../style/style";
+import style from "../../style/style";
 import { useEffect } from "react";
 
 

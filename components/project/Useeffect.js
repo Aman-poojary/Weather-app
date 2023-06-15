@@ -9,7 +9,7 @@ import {
     SectionList,
 } from 'react-native';
 import React, { useState, useEffect } from 'react';
-import style from "../style/style";
+import style from "../../style/style";
 
 
 

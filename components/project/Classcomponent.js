@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import style from "../style/style";
+import style from "../../style/style";
 
 
 import {

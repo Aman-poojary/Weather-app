@@ -6,7 +6,7 @@
  */
 
 import React, { Component, useEffect, useState } from 'react';
-import style from "../style/style";
+import style from "../../style/style";
 
 import {
   Text,

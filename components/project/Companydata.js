@@ -1,6 +1,6 @@
 import {View, Text, Button} from "react-native"
 import States from "./States";
-import style from "../style/style";
+import style from "../../style/style";
 
 function coloredword(){
   <Text style={{fontSize:40}} color={'red'}>How are you!!</Text>

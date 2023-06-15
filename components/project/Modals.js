@@ -1,6 +1,5 @@
 import React, { Component, useEffect, useState } from 'react';
-import style from "../style/style";
-
+import style from "../../style/style";
 import {
   Text,
   View,
@@ -11,11 +10,13 @@ import {
   StyleSheet,
   SafeAreaView,
   ActivityIndicator,
-  TouchableOpacityBase
+  TouchableOpacityBase,
+  Modal,
 } from 'react-native';
  
-const Modals = () => {
+const Modals = (props) => {
     const [show, setShow] = useState(true);
+    // console.warn(props);
     return (
       <View style={{flex:1,justifyContent:'flex-end'}}>
       <Modal
@@ -25,7 +26,7 @@ const Modals = () => {
       >
         <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
           <View style={[style.modalView]} >
-            <Text style={[style.text,{color:'skyblue'}]}>Hello world</Text>
+            <Text style={[style.text,{color:'skyblue'}]}>{props.name}</Text>
            <TouchableOpacity style={[style.button,{marginTop:8}]} onPress={()=>setShow(!show)}><Text style={[style.text]}>close</Text></TouchableOpacity>
           </View>
         </View>
